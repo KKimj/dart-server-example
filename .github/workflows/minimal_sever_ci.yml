@@ -15,4 +15,4 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build . -t minimal_sever
-      working-directory: ./packages/minimal_sever
+      working-directory: ./packages/minimal_server
